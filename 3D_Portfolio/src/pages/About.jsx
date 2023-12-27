@@ -45,7 +45,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          In my college joureney (2020-2024), I've embarked on fascinating projects that shaped my skills and passion for innovation. These experiences, highlighted on my portfolio, mirror my commitment to excellence, innovation, and collaborative problem-solving.Through my website portfolio, I aim to narrate this enriching experience. I invite you to explore my journey, a testament to my dedication and enthusiasm in the realm of collegiate projects and beyond.
+          "In my current academic phase, my practical experiences revolve around collaborative group projects and activities, where I gained invaluable insights into teamwork, leadership, and project management. These endeavors at college have been pivotal in shaping my skills, especially in languages and other proficiencies crucial for excelling in a professional environment. I've showcased these learnings through certifications, emphasizing my dedication and investment in acquiring knowledge essential for contributing meaningfully to esteemed organizations like yours."
         </p>
       </div>
       <div className='mt-12 flex'>
@@ -60,7 +60,7 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className='w-[100%] h-[100%] object-contain'
                     />
                   </div>
                 }
@@ -81,18 +81,22 @@ const About = () => {
                   >
                     {experience.company_name}
                   </p>
+                  <div>
+                    {experience.image}
+                  </div>
                 </div>
 
-                <ul className='my-5 list-disc ml-5 space-y-2'>
+                {/* <ul className='my-5 list-disc ml-5 space-y-2'>
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
                       className='text-black-500/50 font-normal pl-1 text-sm'
+                      
                     >
                       {point}
                     </li>
                   ))}
-                </ul>
+                </ul> */}
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>

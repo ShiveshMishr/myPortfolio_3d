@@ -15,11 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        In my college joureney (2020-2024), I've embarked on fascinating projects that shaped my skills and passion for innovation. These experiences, highlighted on my portfolio, mirror my commitment to excellence, innovation, and collaborative problem-solving.Through my website portfolio, I aim to narrate this enriching experience. I invite you to explore my journey, a testament to my dedication and enthusiasm in the realm of collegiate projects and beyond.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>
