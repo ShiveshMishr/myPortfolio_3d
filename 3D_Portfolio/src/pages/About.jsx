@@ -14,7 +14,7 @@ const About = () => {
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in India, specializing in technical education thorugh hand on learning and building applications.
+          Web Developer/Software Eng.  based in India, specializing in technical education thorugh hand on learning and building applications.
         </p>
       </div>
       
@@ -81,22 +81,12 @@ const About = () => {
                   >
                     {experience.company_name}
                   </p>
-                  <div>
-                    {experience.image}
+                  <div style={{height:'full', width:'full'}}>
+                    <img src={experience.imageUrl} alt=" certificate" />
                   </div>
                 </div>
 
-                {/* <ul className='my-5 list-disc ml-5 space-y-2'>
-                  {experience.points.map((point, index) => (
-                    <li
-                      key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
-                      
-                    >
-                      {point}
-                    </li>
-                  ))}
-                </ul> */}
+                
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>

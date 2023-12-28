@@ -13,7 +13,7 @@ const InfoBox = ({text , link , btnText}) => (
 )
 const renderContent = {
   1 : (
-    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5 ' > Hi , I am <span              className='font-semibold'>Shivesh</span>👋
+    <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5 ' > Hi, I am <span              className='font-semibold'>Shivesh</span>👋
     <br />
       Passionate Full Stack Software Developer skilled in JavaScript, React, Node.js, and more.
       <br/> Eager to innovate and build impactful web and mobile applications 🚀
@@ -21,14 +21,14 @@ const renderContent = {
   ),
    2: (
     <InfoBox 
-    text= "I am Final Year Student, worked on many Projects and piked up many skills along the way"
+    text= "Crafting digital experiences with code to transform ideas into captivating web realities."
     link = "/about"
     btnText="Learn more about me"
     />
   ),
   3 : (
     <InfoBox 
-    text= "I am Final Year Student, worked on many Projects and piked up many skills along the way"
+    text= "Explore a captivating fusion of innovation and creativity showcased in my diverse web development portfolio."
     link = "/projects"
     btnText="Visit my Portfolio"
     />  ),

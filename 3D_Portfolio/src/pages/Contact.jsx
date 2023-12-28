@@ -73,7 +73,7 @@ const Contact = () => {
   };
 
   return (
-    <section className='relative flex lg:flex-row flex-col max-container h-[100vh]'>
+    <section className='relative flex lg:flex-row flex-col max-container h-full'>
       {alert.show && <Alert {...alert} />}
 
       <div className='flex-1 min-w-[50%] flex flex-col'>
